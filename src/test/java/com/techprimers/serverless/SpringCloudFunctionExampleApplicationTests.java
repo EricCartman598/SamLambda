@@ -21,7 +21,7 @@ public class SpringCloudFunctionExampleApplicationTests {
 		String content = result.getBody();
 		assertNotNull(content);
 		assertTrue(content.contains("\"message\""));
-		assertTrue(content.contains("\"hello from lambda\""));
+		assertTrue(content.contains("\"hello from lambda 777\""));
 		assertTrue(content.contains("\"location\""));
 	}
 }
