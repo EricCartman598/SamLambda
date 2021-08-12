@@ -8,7 +8,6 @@ import org.springframework.stereotype.Repository;
 
 
 @Repository
-@Primary
 public class TermDynamoDbRepositoryImpl implements TermRepository {
     @Autowired
     private DynamoDBMapper dynamoDBMapper;

@@ -5,7 +5,7 @@ import com.techprimers.serverless.domain.Term;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("termService")
 public class TermServiceImpl implements TermService {
     private final TermRepository termRepository;
 
