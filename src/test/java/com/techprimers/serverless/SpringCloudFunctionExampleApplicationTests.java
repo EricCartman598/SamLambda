@@ -25,7 +25,7 @@ public class SpringCloudFunctionExampleApplicationTests {
     @Before
     public void init() {
     	Map<String, String> map = new HashMap<>();
-    	map.put("id", "Headache");
+    	map.put("id", "10");
 		Mockito.when(input.getPathParameters()).thenReturn(map);
     }
 
